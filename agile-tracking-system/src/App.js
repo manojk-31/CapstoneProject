@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, useHistory } from 'react-router-dom';
-import Dashboard from './components/Dashboard/Dashboard';
-import Login from './components/Login/Login';
-import UserProfile from './components/UserProfile/UserProfile';
-import SignUp from './components/Signup/SignUp';
+import Dashboard from './components/Dashboard';
+import Login from './components/Login';
+import UserProfile from './components/UserProfile';
+import SignUp from './components/SignUp';
 import { UserProvider, UserContext } from '../src/context/UserContext';
 
 const App = () => {
